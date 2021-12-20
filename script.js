@@ -65,7 +65,8 @@ function chequearInput() {
         alert("Rellene el campo")
     }
     else{
-        let tarea = new Item(input.value)   
+        let tarea = new Item(input.value)
+        input.value = ""   
     }
 }
 
